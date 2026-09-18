@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ICS4U_Topic_5._5;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
@@ -11,7 +12,6 @@ namespace ICS4U_Topic_6
     {
         static void Main(string[] args)
         {
-            Menu();
         }
 
         public static void Menu()
@@ -302,7 +302,7 @@ namespace ICS4U_Topic_6
         }
         public static void Doubles()
         {
-
+            Die die1 = new Die();
         }
 
     }
